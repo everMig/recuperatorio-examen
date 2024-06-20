@@ -1,0 +1,182 @@
+.titulo
+{       display: flex;
+       flex-direction: row;
+       justify-content: center;
+        font-size: 3rem;
+        color: yellow;
+        text-shadow: 1px 1px 2px black,
+        0 0 1em blue,
+        0 0 0.2em blue;;
+        background-color:yellowgreen;       
+        
+}
+.princi
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.monolito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #deb887;
+    border: 5px solid #8b4513;
+    width: 150px;
+    padding: 10px;
+}
+
+.cabeza {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #deb887;
+    border-bottom: 5px solid #8b4513;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabeza-top {
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    height: 20px;
+    background-color: #deb887;
+    border: 5px solid #8b4513;
+    border-bottom: none;
+}
+
+.ojo {
+    width: 20px;
+    height: 20px;
+    /*background-color: #8b4513;
+    */border:2px solid #8b4513;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+}
+
+.ojo.izquierdo {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+}
+
+.ojo.derecho {  
+    position: absolute;
+    right: 25%;
+    top: 15%;
+}
+
+.nariz {
+    width: 8px;
+    height: 20px;
+    background-color: #8b4513;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boca {
+    width: 40px;
+    height: 10px;
+    /*background-color: #8b4513;
+    */border:2px solid #8b4513;
+    position: absolute;
+    border-radius: 20%;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+.cuerpo {
+    width: 100%;
+    background-color: #deb887;
+    /*border: 5px solid #8b4513;*/
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.brazos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 10px;
+}
+
+.brazo {
+    width: 20px;
+    height: 70px;
+    background-color: #deb887;
+    border: 5px solid #8b4513;
+}
+
+
+.piernas {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.mano {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    width: 60px;
+    height: 10px;
+    border: 5px solid #8b4513;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+.mano.izquierdo {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.mano.derecho {
+    position: absolute;
+    right: 25%;
+    top: 25%;
+}
+
+.pierna {
+    width: 40px;
+    height: 60px;
+    background-color: #deb887;
+    border: 5px solid #8b4513;
+}
+
+.pies {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pie {
+    width: 30px;
+    height: 20px;
+    background-color: #8b4513;
+}
